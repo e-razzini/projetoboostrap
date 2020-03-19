@@ -66,9 +66,10 @@ background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rg
     }
     .fake-img{
         padding:10px ;
+        margin-left:10px ;
     }
     .card{
-        margin-left:3px ;
+        margin-left:55px ;
     }
     .float-right{
      width:100%;    
@@ -85,7 +86,7 @@ background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rg
     }
     .final{
         width:100%;
-       
+        margin-left:10px ;
     }
     body{
         padding:1px;
