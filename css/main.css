@@ -11,26 +11,34 @@ body{
 .captura-de-txt-left{
     position: absolute;
     left:10%;
-    top:40%;    
+    top:20%;    
     text-align: left;
 }
 .captura-de-txt{
     position: absolute;    
-    top:40%;
-    
+    top:20%;  
+    left:20% ;  
     text-align:center;
 }
 .captura-de-txt-right{
     position: absolute;
     right:10% ;
-    top:40%;
+    top:20%;
     
     text-align: right;
 }
+header{
+background: rgb(36,0,35);
+background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rgba(64,64,66,1) 100%); 
+}
 .card{
     text-align: center;
-    background-color: #404040;
+    background-color: #404040; 
+    position:relative;       
+    margin-left:30px;
+    margin-bottom:30px;
 }
+
 .card .card-img-top{
     border-radius:50%;
     width:50%;
@@ -48,7 +56,8 @@ body{
 .fake-img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
+
 }
 @media screen and (max-width:540px){
 
@@ -59,13 +68,66 @@ body{
         padding:10px ;
     }
     .card{
-        margin-left:30px ;
+        margin-left:3px ;
+    }
+    .float-right{
+     width:100%;    
+     position: relative;
+     left:360px;
+   
+       
+    }
+    .float-left a {
+     width:100%;
+     position: relative;
+     right:250px;    
+           
+    }
+    .final{
+        width:100%;
+       
+    }
+    body{
+        padding:1px;
+        margin:1px;
     }
 }
-.line{
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    margin:10px;
+.line{  
+    height:2px;
+    background: rgb(36,0,35);
+    background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rgba(64,64,66,1) 100%);
+    margin:10px 10px 10px 10px ;        
+   
+}
+.drop {
+    margin-top:60px   
+}
+.btn{
+    background: rgb(36,0,35);
+    background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rgba(64,64,66,1) 100%);
+}
+.dropdown-menu {
+    background: rgb(36,0,35);
+    background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rgba(64,64,66,1) 100%);
     
+}
+.dropdown-menu a{
+    color:#fff;
+}
+.final{
+    background: rgb(36,0,35);
+    background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rgba(64,64,66,1) 100%);
+    height:100px;        
+    width:100%;   
+    margin-top:30px ;
+}
+.float-right  {    
+  float: right;
+  margin-right:360px ;
+  margin-top:1% ;      
+}
+.float-left a {             
+    margin-left:400px ;
+    float:left;
+    margin-top:5% ;
 }
