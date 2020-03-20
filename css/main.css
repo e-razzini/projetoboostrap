@@ -74,17 +74,18 @@ background: linear-gradient(100deg, rgba(36,0,35,1) 0%, rgba(92,9,121,1) 32%, rg
         margin-left:5px ;
     }
     .float-right{       
-      position: relative;               
-      right:1350;   
-       margin-right:-1300px;   
-       float: left;                       
+      position:absolute;
+      padding-left:36px;   
+      margin-left:-500px;      
+      padding-right:18px ; 
+      padding-top:38px;
+      font-size:10px;
     }
     .float-left{
         width:100%;
         position:relative;
         left:-1350px;
-     
-        
+        padding-right:20px;       
     }
     .final{
         width:100%;        
